@@ -248,6 +248,10 @@ a
 {
     --height:75px;
 }
+.jeden
+{
+    grid-template-columns: [first] 5% [line2] 30% [line3] 30% [line4] 30% [line5] 5%;
+}
 
 }
 table,tr,td,th
