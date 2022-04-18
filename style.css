@@ -117,31 +117,31 @@ nav{
 }
 #img
 {
-    background-image: url("./img/brat_bial.png");
+    background-image: url("./brat_bial.png");
     background-size:cover;
 
 }
 
 #img1
 {
-    background-image: url("./img/brat_fiol.jpg");
+    background-image: url("./brat_fiol.jpg");
     background-size:cover;    
 }
 #img2
 {
-    background-image: url("./img/brat_zol.jpg");
+    background-image: url("./brat_zol.jpg");
     background-size:cover;
 
 }
 
 #img3
 {
-    background-image: url("./img/brat_poma.jpg");
+    background-image: url("./brat_poma.jpg");
     background-size: cover;
 }
 #img4
 {
-    background-image: url("./img/brat_czer.jpg");
+    background-image: url("./brat_czer.jpg");
     background-size: cover;
 }
 
