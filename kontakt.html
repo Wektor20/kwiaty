@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <script>
+        function pokaz(formularz)
+        {
+           a=document.getElementById("xyz");
+           a.innerHTML= formularz.jeden.value;
+           
+        }
+    </script>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <nav>
+        <ol class="me">
+            <a href="./index.html"><li class="me">Strona główna </li></a>
+            <li class="me" onmouseover="znaki()" onmouseout="znaki2()">Kwiaty <div id="znaki"> &#709 </div>
+                <ul class="me">
+                    <li class="me"  id="pierw" onclick="linkbratki()" >Bratki <div class="znaki"> > </div>
+                        <ul class="mee">
+                            <a href="./bra_bia.html"><li class="mee" id="pierw2">Białe</li></a>
+                            <li class="mee">Fioletowe</li>
+                            <li class="mee">Żółte</li>
+                            <li class="mee">Pomarańczowe</li>
+                            <li class="mee">Czerwony</li>
+    
+                        </ul>
+    
+                    </li>
+                    <a href="#pelargonie"><li class="me">Pelargonie <div class="znaki"> > </div>
+                        <ul class="mee">
+                            <a href="./bra_bia.html"><li class="mee" id="pierw2">Czerwone</li></a>
+                            <li class="mee">Różowe</li>
+                            <li class="mee">Białe</li>
+       
+                        </ul>
+                    </li></a>
+                    <a href=""><li class="me">Begonie <div class="znaki"> > </div>
+                        <ul class="mee">
+                            <li class="mee" id="pierw2">Białe</li>
+                            <li class="mee">Czerwone</li>
+                            <li class="mee">Różowe</li>
+    
+                        </ul>
+                    </li></a>
+
+                </ul>
+            </li>
+            <a href="./kontakt.html"><li class="me">Kontakt</li></a>
+        </ol>
+        <button class="dark" onclick="liczenie2()">🌙</button>
+        </nav>
+    <section class="dwa">
+        <div class="conte">
+            <div class="info">
+                <form action="" onsubmit="pokaz(this)" >
+                    <input type="text" name="jeden" id="">
+                    <select name="rodzkwi" id="" onblur="wybor(this)">
+                        <option value="1">bratki</option>
+                        <option value="2">pelargonie</option>
+                        <option value="3">begonie</option>
+                    </select>
+                    <input type="submit" name="" id="">
+                </form>
+                <p id="xyz"></p>
+                
+
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
