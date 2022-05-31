@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <script>
+        function pokaz(formularz)
+        {
+           a=document.getElementById("xyz");
+           a.innerHTML= formularz.jeden.value;
+           
+        }
+    </script>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <nav>
+        <ol class="me">
+            <a href="./index.html"><li class="me">Strona główna </li></a>
+            <li class="me" onmouseover="znaki(); hover1() " onmouseout="znaki2()" id="aaa">Kwiaty <div id="znaki"> &#709 </div>
+                <ul class="me">
+                    <li class="me"  id="pierw" onclick="linkbratki()" >Bratki <div class="znaki"> > </div>
+                        <ul class="mee">
+                            <a href="./bra_bia.html"><li class="mee" id="pierw2">Białe</li></a>
+                            <a href="./bra_bia.html#fiol"><li class="mee">Fioletowe</li></a>
+                            <a href="./bra_bia.html#zolty"><li class="mee">Żółte</li></a>
+                            <a href="./bra_bia.html#pomarancz"><li class="mee">Pomarańczowe</li></a>
+                            <a href="./bra_bia.html#czerw"><li class="mee">Czerwone</li></a>
+    
+                        </ul>
+    
+                    </li>
+                    <a href="#pelargonie"><li class="me">Pelargonie <div class="znaki"> > </div>
+                        <ul class="mee">
+                            <a href="./bra_bia.html"><li class="mee" id="pierw2">Czerwone</li></a>
+                            <li class="mee">Różowe</li>
+                            <li class="mee">Białe</li>
+    
+                        </ul>
+                    </li></a>
+                    <a href=""><li class="me">Begonie <div class="znaki"> > </div>
+                        <ul class="mee">
+                            <li class="mee" id="pierw2">Białe</li>
+                            <li class="mee">Czerwone</li>
+                            <li class="mee">Różowe</li>
+    
+                        </ul>
+                    </li></a>
+
+                </ul>
+            </li>
+            <a href="./kontakt.html"><li class="me">Kontakt</li></a>
+        </ol>
+        <button class="dark" onclick="liczenie2()">🌙</button>
+        </nav>
+    <section class="dwa" style="height: 2000px;">
+        <div class="conte">
+            <div class="info">
+                <br>
+                <br>
+                <div class="przykon" onclick="telefon()">Telefon: </div>
+                <p id="telefon" class="przyc"></p>
+                <br>
+                <br>
+                <div class="przykon" onclick="email()">Email: </div>
+                <p id="email" class="przyc"></p>
+                <br>
+                <br>
+                <div class="przykon" onclick="adres()">Placówki sprzedaży: </div>
+                <p id="adres" class="przyc"></p>
+                
+
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
