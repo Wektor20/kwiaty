@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <nav>
+        <ol class="me">
+            <a href="./index.html"><li class="me">Strona główna </li></a>
+            <li class="me" onmouseover="znaki(); hover1() " onmouseout="znaki2()" id="aaa">Kwiaty <div id="znaki"> &#709 </div>
+                <ul class="me">
+                    <li class="me"  id="pierw" >Bratki <div class="znaki"> > </div>
+                        <ul class="mee">
+                            <a href="./bra_bia.html"><li class="mee" id="pierw2">Białe</li></a>
+                            <a href="./bra_bia.html#fiol"><li class="mee">Fioletowe</li></a>
+                            <a href="./bra_bia.html#zolty"><li class="mee">Żółte</li></a>
+                            <a href="./bra_bia.html#pomarancz"><li class="mee">Pomarańczowe</li></a>
+                            <a href="./bra_bia.html#czerw"><li class="mee">Czerwone</li></a>
+    
+                        </ul>
+    
+                    </li>
+                    <a href="#pelargonie"><li class="me">Pelargonie <div class="znaki"> > </div>
+                        <ul class="mee">
+                            <a href="./bra_bia.html"><li class="mee" id="pierw2">Czerwone</li></a>
+                            <li class="mee">Różowe</li>
+                            <li class="mee">Białe</li>
+    
+                        </ul>
+                    </li></a>
+                    <a href=""><li class="me">Begonie <div class="znaki"> > </div>
+                        <ul class="mee">
+                            <li class="mee" id="pierw2">Białe</li>
+                            <li class="mee">Czerwone</li>
+                            <li class="mee">Różowe</li>
+    
+                        </ul>
+                    </li></a>
+
+                </ul>
+            </li>
+            <a href="./kontakt.html"><li class="me">Kontakt</li></a>
+        </ol>
+        <button class="dark" onclick="liczenie2()">🌙</button>
+        </nav>
+    <section class="dwa">
+        <div class="conte">
+            <div class="spa" id="spaa">
+                <hr>
+                <h2>Bratki białe</h2>
+            </div>
+            <div class="info">
+                <h3>Opis</h3>
+                <p>Białe bratki są świetną ozdobą do ogrodu jak i balkonu.</p>
+                <br>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Wieloletni</th>
+                        <th>Częstotliwość podlewania</th>
+                        <th>Warunki pogodowe</th>
+                    </tr>
+                    <tr>
+                        <td>Bratek biały</td>
+                        <td>Nie</td>
+                        <td>2 dni</td>
+                        <td>słońce</td>
+                    </tr>
+                </table>
+                <br>
+                <img src="./brat_bial.png" alt="Bratek biały" class="obrazy">
+                <img src="./brat_bial.png" alt="Bratek biały" class="obrazy">
+                <br><br>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Dostępne</td>
+                        <td>Ilość</td>
+                    </tr>
+                    <tr>
+                        <td>Bratek biały</td>
+                        <td>Nie</td>
+                        <td id="fiol">Wyprzedany!</td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+            <div class="spa" id="spaa">
+                <hr>
+                <h2>Bratki fioletowy</h2>
+            </div>
+            <div class="info">
+                <h3>Opis</h3>
+                <p>Fioletowe bratki są świetną ozdobą do ogrodu jak i balkonu.</p>
+                <br>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Wieloletni</th>
+                        <th>Częstotliwość podlewania</th>
+                        <th>Warunki pogodowe</th>
+                    </tr>
+                    <tr>
+                        <td>Bratek biały</td>
+                        <td>Nie</td>
+                        <td>2 dni</td>
+                        <td>słońce</td>
+                    </tr>
+                </table>
+                <br>
+                <img src="./brat_fiol.jpg" alt="Bratek biały" class="obrazy">
+                <img src="./brat_fiol.jpg" alt="Bratek biały" class="obrazy">
+                <br><br>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Dostępne</td>
+                        <td>Ilość</td>
+                    </tr>
+                    <tr>
+                        <td>Bratek fioletowy</td>
+                        <td>Ostatnie sztuki!</td>
+                        <td id="zolty">20 sztuk</td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+            <div class="spa" id="spaa">
+                <hr>
+                <h2>Bratki żółte</h2>
+            </div>
+            <div class="info">
+                <h3>Opis</h3>
+                <p>Żółte bratki są świetną ozdobą do ogrodu jak i balkonu.
+                    Mamy dostępne 2 rodzaje bratków:
+                    <ul>
+                        <li>Bratki żółte(całe)</li>
+                        <li>Bratki żółte(z czarnym środkiem)</li>
+                    </ul>
+                </p>
+                <br>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Wieloletni</th>
+                        <th>Częstotliwość podlewania</th>
+                        <th>Warunki pogodowe</th>
+                    </tr>
+                    <tr>
+                        <td>Bratek żółty(cały)</td>
+                        <td>Nie</td>
+                        <td>2 dni</td>
+                        <td>słońce</td>
+                    </tr>
+                    <tr>
+                        <td>Bratek żółty(z czarnym środkiem)</td>
+                        <td>Nie</td>
+                        <td>1 dzień</td>
+                        <td>słońce</td>
+                    </tr>
+                </table>
+                <br>
+                <img src="./brat_zol.jpg" alt="Bratek żółty" class="obrazy">
+                <img src="./brat_zol.jpg" alt="Bratek żółty" class="obrazy">
+                <br><br>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Dostępne</td>
+                        <td>Ilość</td>
+                    </tr>
+                    <tr>
+                        <td>Bratek zółty(cały)</td>
+                        <td>Tak</td>
+                        <td>200 szt</td>
+                    </tr>
+                    <tr>
+                        <td>Bratek żółty(z czarnym środkiem)</td>
+                        <td>Ostatnie sztuki!</td>
+                        <td id="pomarancz">20 szt</td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <div class="spa" id="spaa">
+                <hr>
+                <h2>Bratki pomarańczowe</h2>
+            </div>
+            <div class="info">
+                <h3>Opis</h3>
+                <p>Pomarańczowe bratki są świetną ozdobą do ogrodu jak i balkonu.</p>
+                <br>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Wieloletni</th>
+                        <th>Częstotliwość podlewania</th>
+                        <th>Warunki pogodowe</th>
+                    </tr>
+                    <tr>
+                        <td>Bratek pomarańczowy</td>
+                        <td>Nie</td>
+                        <td>2 dni</td>
+                        <td>słońce</td>
+                    </tr>
+                </table>
+                <br>
+                <img src="./brat_poma.jpg" alt="Bratek biały" class="obrazy">
+                <img src="./brat_poma.jpg" alt="Bratek biały" class="obrazy">
+                <br><br>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Dostępne</td>
+                        <td>Ilość</td>
+                    </tr>
+                    <tr>
+                        <td>Bratek pomarańczowy</td>
+                        <td>Tak</td>
+                        <td id="czerw">200 szt</td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+            <div class="spa" id="spaa">
+                <hr>
+                <h2>Bratki czerowne</h2>
+            </div>
+            <div class="info">
+                <h3>Opis</h3>
+                <p>Czerwone bratki są świetną ozdobą do ogrodu jak i balkonu.</p>
+                <br>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Wieloletni</th>
+                        <th>Częstotliwość podlewania</th>
+                        <th>Warunki pogodowe</th>
+                    </tr>
+                    <tr>
+                        <td>Bratek czerwony</td>
+                        <td>Tak</td>
+                        <td>2 dni</td>
+                        <td>półcień</td>
+                    </tr>
+                </table>
+                <br>
+                <img src="./brat_czer.jpg" alt="Bratek biały" class="obrazy">
+                <img src="./brat_czer.jpg" alt="Bratek biały" class="obrazy">
+                <br><br>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Dostępne</td>
+                        <td>Ilość</td>
+                    </tr>
+                    <tr>
+                        <td>Bratek czerwony</td>
+                        <td>Tak</td>
+                        <td>200 szt</td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+            <div class="spa" id="spaa">
+                <hr>
+                <h2>Bratki białe</h2>
+            </div>
+            <div class="info">
+                <h3>Opis</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sint cupiditate dolorem
+                    recusandae
+                    perspiciatis, adipisci tenetur vel beatae numquam. Repellat repudiandae reprehenderit sequi mollitia
+                    et
+                    accusamus, debitis voluptatum ipsum. Nulla.
+                    Quibusdam accusamus rem facere enim cumque! Excepturi et quia adipisci rerum cumque aut, illo at,
+                    porro
+                    facere error, autem molestias. Repellat numquam assumenda commodi quae. Deserunt dolor voluptatum
+                    iusto
+                    repellat!</p>
+                <br>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Wieloletni</th>
+                        <th>Częstotliwość podlewania</th>
+                        <th>Warunki pogodowe</th>
+                    </tr>
+                    <tr>
+                        <td>Bratek biały</td>
+                        <td>Tak</td>
+                        <td>2 dni</td>
+                        <td>półcień</td>
+                    </tr>
+                </table>
+                <br>
+                <img src="./brat_bial.png" alt="Bratek biały" class="obrazy">
+                <img src="./brat_bial.png" alt="Bratek biały" class="obrazy">
+                <br><br>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Dostępne</td>
+                        <td>Ilość</td>
+                    </tr>
+                    <tr>
+                        <td>Bratek biały</td>
+                        <td>Tak</td>
+                        <td>200 szt</td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+            <div class="spa" id="spaa">
+                <hr>
+                <h2>Bratki białe</h2>
+            </div>
+            <div class="info">
+                <h3>Opis</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sint cupiditate dolorem
+                    recusandae
+                    perspiciatis, adipisci tenetur vel beatae numquam. Repellat repudiandae reprehenderit sequi mollitia
+                    et
+                    accusamus, debitis voluptatum ipsum. Nulla.
+                    Quibusdam accusamus rem facere enim cumque! Excepturi et quia adipisci rerum cumque aut, illo at,
+                    porro
+                    facere error, autem molestias. Repellat numquam assumenda commodi quae. Deserunt dolor voluptatum
+                    iusto
+                    repellat!</p>
+                <br>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Wieloletni</th>
+                        <th>Częstotliwość podlewania</th>
+                        <th>Warunki pogodowe</th>
+                    </tr>
+                    <tr>
+                        <td>Bratek biały</td>
+                        <td>Tak</td>
+                        <td>2 dni</td>
+                        <td>półcień</td>
+                    </tr>
+                </table>
+                <br>
+                <img src="./brat_bial.png" alt="Bratek biały" class="obrazy">
+                <img src="./brat_bial.png" alt="Bratek biały" class="obrazy">
+                <br><br>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Dostępne</td>
+                        <td>Ilość</td>
+                    </tr>
+                    <tr>
+                        <td>Bratek biały</td>
+                        <td>Tak</td>
+                        <td>200 szt</td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+            <div class="spa" id="spaa">
+                <hr>
+                <h2>Bratki białe</h2>
+            </div>
+            <div class="info">
+                <h3>Opis</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sint cupiditate dolorem
+                    recusandae
+                    perspiciatis, adipisci tenetur vel beatae numquam. Repellat repudiandae reprehenderit sequi mollitia
+                    et
+                    accusamus, debitis voluptatum ipsum. Nulla.
+                    Quibusdam accusamus rem facere enim cumque! Excepturi et quia adipisci rerum cumque aut, illo at,
+                    porro
+                    facere error, autem molestias. Repellat numquam assumenda commodi quae. Deserunt dolor voluptatum
+                    iusto
+                    repellat!</p>
+                <br>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Wieloletni</th>
+                        <th>Częstotliwość podlewania</th>
+                        <th>Warunki pogodowe</th>
+                    </tr>
+                    <tr>
+                        <td>Bratek biały</td>
+                        <td>Tak</td>
+                        <td>2 dni</td>
+                        <td>półcień</td>
+                    </tr>
+                </table>
+                <br>
+                <img src="./brat_bial.png" alt="Bratek biały" class="obrazy">
+                <img src="./brat_bial.png" alt="Bratek biały" class="obrazy">
+                <br><br>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Dostępne</td>
+                        <td>Ilość</td>
+                    </tr>
+                    <tr>
+                        <td>Bratek biały</td>
+                        <td>Tak</td>
+                        <td>200 szt</td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+            <div class="spa" id="spaa">
+                <hr>
+                <h2>Bratki białe</h2>
+            </div>
+            <div class="info">
+                <h3>Opis</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sint cupiditate dolorem
+                    recusandae
+                    perspiciatis, adipisci tenetur vel beatae numquam. Repellat repudiandae reprehenderit sequi mollitia
+                    et
+                    accusamus, debitis voluptatum ipsum. Nulla.
+                    Quibusdam accusamus rem facere enim cumque! Excepturi et quia adipisci rerum cumque aut, illo at,
+                    porro
+                    facere error, autem molestias. Repellat numquam assumenda commodi quae. Deserunt dolor voluptatum
+                    iusto
+                    repellat!</p>
+                <br>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Wieloletni</th>
+                        <th>Częstotliwość podlewania</th>
+                        <th>Warunki pogodowe</th>
+                    </tr>
+                    <tr>
+                        <td>Bratek biały</td>
+                        <td>Tak</td>
+                        <td>2 dni</td>
+                        <td>półcień</td>
+                    </tr>
+                </table>
+                <br>
+                <img src="./brat_bial.png" alt="Bratek biały" class="obrazy">
+                <img src="./brat_bial.png" alt="Bratek biały" class="obrazy">
+                <br><br>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Dostępne</td>
+                        <td>Ilość</td>
+                    </tr>
+                    <tr>
+                        <td>Bratek biały</td>
+                        <td>Tak</td>
+                        <td>200 szt</td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+            <div class="spa" id="spaa">
+                <hr>
+                <h2>Bratki białe</h2>
+            </div>
+            <div class="info">
+                <h3>Opis</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sint cupiditate dolorem
+                    recusandae
+                    perspiciatis, adipisci tenetur vel beatae numquam. Repellat repudiandae reprehenderit sequi mollitia
+                    et
+                    accusamus, debitis voluptatum ipsum. Nulla.
+                    Quibusdam accusamus rem facere enim cumque! Excepturi et quia adipisci rerum cumque aut, illo at,
+                    porro
+                    facere error, autem molestias. Repellat numquam assumenda commodi quae. Deserunt dolor voluptatum
+                    iusto
+                    repellat!</p>
+                <br>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Wieloletni</th>
+                        <th>Częstotliwość podlewania</th>
+                        <th>Warunki pogodowe</th>
+                    </tr>
+                    <tr>
+                        <td>Bratek biały</td>
+                        <td>Tak</td>
+                        <td>2 dni</td>
+                        <td>półcień</td>
+                    </tr>
+                </table>
+                <br>
+                <img src="./brat_bial.png" alt="Bratek biały" class="obrazy">
+                <img src="./brat_bial.png" alt="Bratek biały" class="obrazy">
+                <br><br>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Dostępne</td>
+                        <td>Ilość</td>
+                    </tr>
+                    <tr>
+                        <td>Bratek biały</td>
+                        <td>Tak</td>
+                        <td>200 szt</td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
