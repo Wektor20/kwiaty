@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Kwiaty</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <nav>
+        <ol class="me">
+            <a href="./index.html"><li class="me"  onmouseover="hover2(this)" onmouseout="offhover2(this)">Strona główna </li></a>
+            <li class="me" onmouseover="znaki(); hover2(this) " onmouseout="znaki2(); offhover2(this)" id="aaa">Kwiaty <div id="znaki"> &#709 </div>
+                <ul class="me">
+                    <li class="me"  id="pierw" onclick="linkbratki()" onmouseover="hover2(this)" onmouseout="offhover2(this)">Bratki <div class="znaki"> > </div>
+                        <ul class="mee">
+                            <a href="./bra_bia.html"><li class="mee" id="pierw2" onmouseover="hover(this)" onmouseout="offhover(this)">Białe</li></a>
+                            <a href="./bra_bia.html#fiol"><li class="mee" onmouseover="hover(this)" onmouseout="offhover(this)">Fioletowe</li></a>
+                            <a href="./bra_bia.html#zolty"><li class="mee " onmouseover="hover(this)" onmouseout="offhover(this)">Żółte</li></a>
+                            <a href="./bra_bia.html#pomarancz"><li class="mee" onmouseover="hover(this)" onmouseout="offhover(this)">Pomarańczowe</li></a>
+                            <a href="./bra_bia.html#czerw"><li class="mee" onmouseover="hover(this)" onmouseout="offhover(this)">Czerwone</li></a>
+    
+                        </ul>
+    
+                    </li>
+                    <li class="me" onclick="linkpelar()" onmouseover="hover2(this)" onmouseout="offhover2(this)">Pelargonie <div class="znaki"> > </div>
+                        <ul class="mee">
+                            <a href="./pelarg.html"><li class="mee" id="pierw2" onmouseover="hover(this)" onmouseout="offhover(this)">Czerwone</li></a>
+                            <a href="./pelarg.html#czerw"><li class="mee" onmouseover="hover(this)" onmouseout="offhover(this)">Łososiowa</li></a>
+                            <a href="./pelarg.html#czerwz"><li class="mee" onmouseover="hover(this)" onmouseout="offhover(this)">Zwisająca czerwona</li></a>
+                        </ul>
+                    </li>
+
+                </ul>
+            </li>
+            <a href="./kontakt.html"><li class="me" onmouseover="hover2(this)" onmouseout="offhover2(this)">Kontakt</li></a>
+        </ol>
+        <button class="dark" onclick="liczenie2()">🌙</button>
+        </nav>
+    <section class="dwa">
+        <div class="conte">
+            <div class="spa" id="spaa">
+                <hr>
+                <h2>Pelargonia czerwona</h2>
+            </div>
+            <div class="info">
+                <h3>Opis</h3>
+                <p>Pelargonia stojąca czerwona jest świetną ozdobą do stojącej doniczki w dodatku nie jest wymagająca</p>
+                <br>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Wieloletni</th>
+                        <th>Częstotliwość podlewania</th>
+                        <th>Warunki pogodowe</th>
+                    </tr>
+                    <tr>
+                        <td>Pelargonia czerwona</td>
+                        <td>Nie</td>
+                        <td>Rzadko</td>
+                        <td>Słońce</td>
+                    </tr>
+                </table>
+                <br>
+                <img src="./pela_czerw.jpg" alt="Bratek biały" class="obrazy">
+                <img src="./pela_czerw.jpg" alt="Bratek biały" class="obrazy">
+                <br><br>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Dostępne</td>
+                        <td>Ilość</td>
+                    </tr>
+                    <tr>
+                        <td>Pelargonia czerwona</td>
+                        <td>Tak</td>
+                        <td id="czerw">100 sztuk</td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+            <div class="spa" id="spaa">
+                <hr>
+                <h2>Pelargonia łososiowa</h2>
+            </div>
+            <div class="info">
+                <h3>Opis</h3>
+                <p>Pelargonia stojąca łososiowa jest świetną ozdobą do stojącej doniczki w dodatku nie jest wymagająca.</p>
+                <br>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Wieloletni</th>
+                        <th>Częstotliwość podlewania</th>
+                        <th>Warunki pogodowe</th>
+                    </tr>
+                    <tr>
+                        <td>Bratek fioletowy</td>
+                        <td>Nie</td>
+                        <td>2 dni</td>
+                        <td>słońce</td>
+                    </tr>
+                </table>
+                <br>
+                <img src="./pela_rozo.jpg" alt="Bratek biały" class="obrazy">
+                <img src="./pela_rozo.jpg" alt="Bratek biały" class="obrazy">
+                <br><br>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Dostępne</td>
+                        <td>Ilość</td>
+                    </tr>
+                    <tr>
+                        <td>Bratek fioletowy</td>
+                        <td>Ostatnie sztuki!</td>
+                        <td id="czerwz">20 sztuk</td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+            <div class="spa" id="spaa">
+                <hr>
+                <h2>Pelargonia zwisająca czerwona</h2>
+            </div>
+            <br>
+            <br>
+            <div class="info">
+                <h3>Opis</h3>
+                <p>Pelargonia zwisająca czerwona jest świetną ozdobą do wiszącej doniczki  w dodatku nie jest wymagająca.</p>
+                <br>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Wieloletni</th>
+                        <th>Częstotliwość podlewania</th>
+                        <th>Warunki pogodowe</th>
+                    </tr>
+                    <tr>
+                        <td>Pealrgonia zwisajaca czerwona</td>
+                        <td>Nie</td>
+                        <td>Rzadko</td>
+                        <td>słońce</td>
+                    </tr>
+                </table>
+                <br>
+                <img src="./pela_zwis_czerw.jpg" alt="Bratek żółty" class="obrazy">
+                <img src="./pela_zwis_czerw.jpg" alt="Bratek żółty" class="obrazy">
+                <br><br>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Dostępne</td>
+                        <td>Ilość</td>
+                    </tr>
+                    <tr>
+                        <td>Pelargonia zwisająca czerwona</td>
+                        <td>Tak</td>
+                        <td>50szt</td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+        
+
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>

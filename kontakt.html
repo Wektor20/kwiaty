@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Kwiaty</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <nav>
+        <ol class="me">
+            <a href="./index.html"><li class="me"  onmouseover="hover2(this)" onmouseout="offhover2(this)">Strona główna </li></a>
+            <li class="me" onmouseover="znaki(); hover2(this) " onmouseout="znaki2(); offhover2(this)" id="aaa">Kwiaty <div id="znaki"> &#709 </div>
+                <ul class="me">
+                    <li class="me"  id="pierw" onclick="linkbratki()" onmouseover="hover2(this)" onmouseout="offhover2(this)">Bratki <div class="znaki"> > </div>
+                        <ul class="mee">
+                            <a href="./bra_bia.html"><li class="mee" id="pierw2" onmouseover="hover(this)" onmouseout="offhover(this)">Białe</li></a>
+                            <a href="./bra_bia.html#fiol"><li class="mee" onmouseover="hover(this)" onmouseout="offhover(this)">Fioletowe</li></a>
+                            <a href="./bra_bia.html#zolty"><li class="mee " onmouseover="hover(this)" onmouseout="offhover(this)">Żółte</li></a>
+                            <a href="./bra_bia.html#pomarancz"><li class="mee" onmouseover="hover(this)" onmouseout="offhover(this)">Pomarańczowe</li></a>
+                            <a href="./bra_bia.html#czerw"><li class="mee" onmouseover="hover(this)" onmouseout="offhover(this)">Czerwone</li></a>
+    
+                        </ul>
+    
+                    </li>
+                    <li class="me" onclick="linkpelar()" onmouseover="hover2(this)" onmouseout="offhover2(this)">Pelargonie <div class="znaki"> > </div>
+                        <ul class="mee">
+                            <a href="./pelarg.html"><li class="mee" id="pierw2" onmouseover="hover(this)" onmouseout="offhover(this)">Czerwone</li></a>
+                            <a href="./pelarg.html#czerw"><li class="mee" onmouseover="hover(this)" onmouseout="offhover(this)">Łososiowa</li></a>
+                            <a href="./pelarg.html#czerwz"><li class="mee" onmouseover="hover(this)" onmouseout="offhover(this)">Zwisająca czerwona</li></a>
+    
+                        </ul>
+                    </li>
+
+                </ul>
+            </li>
+            <a href="./kontakt.html"><li class="me" onmouseover="hover2(this)" onmouseout="offhover2(this)">Kontakt</li></a>
+        </ol>
+        <button class="dark" onclick="liczenie2()">🌙</button>
+        </nav>
+    <section class="dwa" style="height: 2000px;">
+        <div class="conte">
+            <div class="info">
+                <br>
+                <br>
+                <div class="przykon" onclick="telefon()">Telefon: </div>
+                <p id="telefon" class="przyc"></p>
+                <br>
+                <br>
+                <div class="przykon" onclick="email()">Email: </div>
+                <p id="email" class="przyc"></p>
+                <br>
+                <br>
+                <div class="przykon" onclick="adres()">Placówki sprzedaży: </div>
+                <p id="adres" class="przyc"></p>
+                
+
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
