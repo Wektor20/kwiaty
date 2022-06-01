@@ -360,6 +360,10 @@ a
     {
         font-size: 5px;
     }
+    .info th
+    {
+        font-size:6px;
+    }
     .dark
     {
         width:30px;
