@@ -358,7 +358,7 @@ a
     }
     .info table
     {
-        font-size: 6px;
+        font-size: 5px;
     }
     .dark
     {
@@ -379,10 +379,6 @@ a
     .xxx
     {
         font-size: 8px;
-    }
-    table
-    {
-        margin-left:-10px;
     }
 }
 
