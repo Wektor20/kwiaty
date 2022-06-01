@@ -374,11 +374,15 @@ a
     }
     table,tr,td,th
     {
-        width: 90%;
+        width: 95%;
     }
     .xxx
     {
         font-size: 8px;
+    }
+    table
+    {
+        margin-left:-10px;
     }
 }
 
